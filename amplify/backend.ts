@@ -1,13 +1,13 @@
 import { defineBackend } from '@aws-amplify/backend'
 import { storage } from './storage/resource'
 import { createStripeToTwilioFunc } from './customResources/functions/construct'
-import * as dotenv from 'dotenv'
-import * as path from 'path'
 import { PolicyStatement } from 'aws-cdk-lib/aws-iam'
+// import * as dotenv from 'dotenv'
+// import * as path from 'path'
 
-const dirname = import.meta.dirname
+// const dirname = import.meta.dirname
 
-dotenv.config({ path: path.join(dirname, '.env.local') })
+// dotenv.config({ path: path.join(dirname, '.env.local') })
 
 /**
  * @see https://docs.amplify.aws/react/build-a-backend/ to add storage, functions, and more

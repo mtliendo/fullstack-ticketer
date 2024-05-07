@@ -32,7 +32,7 @@ export const createStripeToTwilioFunc = (
 		scope,
 		'stripe-to-twilio-webhook',
 		{
-			functionName: 'amplify-stripe-to-twilio-webhook',
+			functionName: 'amplify-stripe-to-twilio-webhook-prod',
 			entry: path.join(__dirname, 'main.ts'),
 			runtime: Runtime.NODEJS_20_X,
 			memorySize: 512,

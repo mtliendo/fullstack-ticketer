@@ -69,7 +69,6 @@ const mainFlow = async (customerName: string, customerPhoneNumber: string) => {
 	})
 	console.log('the url', url)
 
-	//Todo: send the url to twilio, then update the return statement to simply return a success message.
 	await sendTwilioMMS({
 		twilioSIDName: twilioAccountSid,
 		twilioAuthTokenName: twilioAuthToken,
